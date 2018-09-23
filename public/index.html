@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+	<title>Photonic Brewing</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="bg">
+		<header id="mast">
+			<img id="logo" src="logo.svg" />
+		</header>
+		<div class="wrapper">
+			<div class="opaque">
+				<h1>Welcome to Photonic Brewing!</h1>
+				<p>We are a new up-and-coming brewery in Klamath Falls, Oregon. As we experiment with our beers, we're holding tastings (and other events). If you are interested in being part of our adventure, sign up for our email newsletter:</p>
+			</div>
+			<form name="contact" method="POST" netlify>
+				<p>
+					<label for="name">Name:</label>
+					<input id="name" type="text" name="name" />
+				</p>
+				<p>
+					<label for="email">Email:</label>
+					<input id="email" type="email" name="email" placeholder="you@example.com" />
+				</p>
+				<p>
+					<button type=”submit”>Subscribe</button>
+				</p>
+			</form>
+		</div>
+	</div>
+	<div class="wrapper">
+		<h2>My name is Jennifer Berdyugin, and I’m the founder of the Photonic Brewing Project.</h2>
+		<figure>
+			<img src="jennifer.jpg" alt="Jennifer Berdyugin" title="Jennifer Berdyugin" />
+			<span>Jennifer with a tasting flight at Buoy Beer Co. in Astoria, Oregon</span>
+		</figure>
+		<p>I first started researching the craft brewing industry in 2014 as part of my community development project for the Oregon Tech Honors Program. The initial concept was to start a brewpub on the Oregon Tech campus. I shifted the focus in 2015 to make one ingredient used in beer: malt. The concept with malt was to use Klamath Falls grown grain to create craft malt to sell to microbrewers. Whenever I would tell someone about the malt project they would say "oh that's cool, well let me know when you have samples to taste test!" I realized that the community in Klamath Falls still has a growing appetite for craft beer beyond the options currently available. My vision is to open a craft brewery in Klamath Falls that would highlight the best of what the community has to offer.</p>
+	</div>
+	<footer id="footer">
+		<p>&copy; Copyright 2018 Jennifer Berdyugin</p>
+	</footer>
+</body>
+</html>

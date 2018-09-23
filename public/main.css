@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img, video {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+html, body {
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #731810;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  font-size: 100%;
+  color: #731810;
+  line-height: 1.5;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
+#mast {
+  background: rgba(255,255,255,0.9);
+  margin-bottom: 1em;
+}
+
+#logo {
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.bg {
+  background: url(./mighty-bananas.jpg);
+  background-size: cover;
+  margin-bottom: 1em;
+  padding-bottom: 2em;
+}
+
+.bg + .wrapper {
+  margin-top: 2em;
+}
+
+.opaque {
+  background: rgba(255,255,255,0.95);
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  box-shadow: 0 1px 8px rgba(22,22,22,0.2);
+}
+
+figure {
+  margin: 1.5em 0;
+}
+
+figure span {
+  font-size: 90%;
+  color: #1C554D;
+}
+
+form {
+  background: #fefefe;
+  box-shadow: 0 1px 8px rgba(22,22,22,0.2);
+  border-radius: 6px;
+  margin: 1em auto 2em;
+  padding: 2em;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  font-size: 110%;
+  width: 100%;
+}
+
+form button {
+  text-align: center;
+  margin: 1em auto 0;
+  display: block;
+  border: none;
+  background: #2F8275;
+  color: white;
+  padding: 0.75em 2em;
+  font-family: Roboto, sans-serif;
+  border-radius: 3px;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+#footer {
+  margin: 4em auto;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  color: #444;
+}
